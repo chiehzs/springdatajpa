@@ -16,6 +16,7 @@ public class SysUser implements Serializable{
 
     @Column(name = "sys_name")
     private String userName;
+    private String age;
 
     //维护用户关系
     /**
